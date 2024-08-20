@@ -13,13 +13,13 @@ form.addEventListener("submit", (e) => {
     let user = localStorage.getItem(email.value);
 
     if (user == null) {
-        errorMessage.innerHTML = "Email does not exists";
+        errorMessage.textContent = "Email does not exists";
         email.insertAdjacentElement("afterend", errorMessage);
     } else {
         let userJson = JSON.parse(user);
 
         if (password.value !== userJson.password) {
-            errorMessage.innerHTML = "Wrong Password";
+            errorMessage.textContent = "Wrong Password";
             password.insertAdjacentElement("afterend", errorMessage);
         } else {
             form.submit();
