@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: lightblue;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    font-size: larger;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Slide Show CSS */
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#display {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+article {
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+input, button {
+    padding: 10px;
+    margin-block: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+button {
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover {
+    transition: 1s ease-in;
+    color: whitesmoke;
+    background: hsl(202, 93%, 29%);
+}
+
+article {
+    margin: 10px 10px 40px 10px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+
+footer #socials {
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#socials > ul > li {
+    margin: 10px;
+}
+
+#socials > ul > li:hover, a:hover {
+    color: hsl(202, 93%, 29%);
+}

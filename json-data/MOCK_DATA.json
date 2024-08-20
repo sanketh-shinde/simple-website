@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "first_name": "Travis",
+    "last_name": "Roffe",
+    "email": "troffe0@timesonline.co.uk",
+    "gender": "Male",
+    "department": "Marketing",
+    "address": "3 Raven Avenue"
+  },
+  {
+    "id": 2,
+    "first_name": "Iorgos",
+    "last_name": "Pask",
+    "email": "ipask1@who.int",
+    "gender": "Male",
+    "department": "Accounting",
+    "address": "7504 Crest Line Alley"
+  },
+  {
+    "id": 3,
+    "first_name": "Burgess",
+    "last_name": "Haylock",
+    "email": "bhaylock2@barnesandnoble.com",
+    "gender": "Male",
+    "department": "Sales",
+    "address": "633 Maywood Lane"
+  },
+  {
+    "id": 4,
+    "first_name": "Ema",
+    "last_name": "McGaughie",
+    "email": "emcgaughie3@friendfeed.com",
+    "gender": "Female",
+    "department": "Business Development",
+    "address": "35778 Main Parkway"
+  },
+  {
+    "id": 5,
+    "first_name": "Dav",
+    "last_name": "Ielden",
+    "email": "dielden4@accuweather.com",
+    "gender": "Male",
+    "department": "Marketing",
+    "address": "05 Debra Drive"
+  },
+  {
+    "id": 6,
+    "first_name": "Chantalle",
+    "last_name": "Greiser",
+    "email": "cgreiser5@earthlink.net",
+    "gender": "Female",
+    "department": "Legal",
+    "address": "9 5th Center"
+  },
+  {
+    "id": 7,
+    "first_name": "Byram",
+    "last_name": "Carman",
+    "email": "bcarman6@quantcast.com",
+    "gender": "Polygender",
+    "department": "Engineering",
+    "address": "98 Mifflin Way"
+  },
+  {
+    "id": 8,
+    "first_name": "Winnah",
+    "last_name": "Jenkyn",
+    "email": "wjenkyn7@auda.org.au",
+    "gender": "Female",
+    "department": "Sales",
+    "address": "49 Sugar Circle"
+  },
+  {
+    "id": 9,
+    "first_name": "Herb",
+    "last_name": "MacEllen",
+    "email": "hmacellen8@delicious.com",
+    "gender": "Male",
+    "department": "Legal",
+    "address": "84 Village Court"
+  },
+  {
+    "id": 10,
+    "first_name": "Jermain",
+    "last_name": "Fuller",
+    "email": "jfuller9@loc.gov",
+    "gender": "Genderqueer",
+    "department": "Training",
+    "address": "3281 Pepper Wood Terrace"
+  }
+]

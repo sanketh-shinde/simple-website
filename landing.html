@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#slideshow">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#socials">Socials</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Automatic Slide Show -->
+    <div class="slideshow">
+        <img class="mySlides" src="./images/nature.jpg" alt="Nature" style="width:100%">
+        <img class="mySlides" src="./images/snow.jpg" alt="Snow" style="width:100%">
+        <img class="mySlides" src="./images/mountains.jpg" alt="Mountains" style="width:100%">
+    </div>
+
+    <div id="display">
+        <h1>Fetch Data from id</h1>
+        <input type="text" name="" id="id" placeholder="enter id">
+        <button id="submit">Submit</button>
+    </div>
+    
+    <footer>
+        <section id="socials">
+            <h1>Follow Us:</h1>
+            <ul>
+                <li>
+                    <i class="fa-brands fa-facebook fa-xl"></i>
+                    <a href="#" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                    <a href="#" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-twitter fa-xl"></i>
+                    <a href="#" target="_blank">Twitter</a>
+                </li>
+            </ul>
+            <a href="mailto:sankethshinde99@gmail.com">
+                &copy; sankethshinde99@gmail.com
+            </a>
+        </section>
+        
+    </footer>
+
+    <script src="./js/slide.js"></script>
+    <script src="./js/data.js"></script>
+</body>
+
+</html>
